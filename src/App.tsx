@@ -10,7 +10,7 @@ import {
   faPaperPlane,
 } from "@fortawesome/free-solid-svg-icons";
 
-import { default as Home } from "./pages/home.tsx";
+import Home from "./pages/Home";
 import Header from "./components/Header";
 
 library.add(faPagelines, faQuoteLeft, faQuoteRight, faStar, faPaperPlane);

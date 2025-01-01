@@ -77,9 +77,17 @@ const Therapie: React.FC = () => {
         </div>
         <div className="therapie4-container-right">
           <div className="video-container">
-            <video width="100%" controls autoPlay muted loop>
+            <video 
+              width="100%" 
+              controls 
+              autoPlay 
+              muted 
+              loop
+              playsInline
+              preload="auto"
+            >
               <source src={call} type="video/mp4" />
-              Your browser does not support the video tag.
+              Votre navigateur ne supporte pas la lecture de vidéos.
             </video>
           </div>
         </div>
